@@ -1,0 +1,48 @@
+\documentclass[14pt, a4paper]{extarticle}
+
+\usepackage[top=15mm, bottom=20mm,left=30mm,right=10mm]{geometry}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{indentfirst} % always indent the first paragraph after section
+\usepackage{hyperref}
+\usepackage[nottoc,numbib]{tocbibind} % include bibliography in the table of
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[bottom]{footmisc}
+
+\hypersetup{pdfencoding=auto}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{CMU Serif}
+\setsansfont{CMU Sans Serif}
+\setmonofont{CMU Typewriter Text}
+
+\setdefaultlanguage{russian}
+\setotherlanguage{english}
+
+\begin{document}
+  \input{title}
+  \newpage
+
+  \tableofcontents
+  \setcounter{page}{2}
+  \newpage
+
+  \input{intro}
+  \newpage
+
+  \input{chapter_one}
+  \newpage
+
+  \input{chapter_two}
+  \newpage
+
+  \input{chapter_three}
+  \newpage
+
+
+  \bibliographystyle{plain}
+  \bibliography{main}
+\end{document}
