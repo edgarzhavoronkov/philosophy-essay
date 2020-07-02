@@ -1,2 +1,2 @@
 # philosophy-essay
-Scratches for my philosophy essay @ SPbAU RAS
+Drafts for my philosophy essay @ SPbAU RAS
